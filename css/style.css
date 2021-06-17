@@ -1,0 +1,87 @@
+*{
+    font-family: "Heebo";
+}
+/* Nav Styles */
+.nav-item{
+    padding: 0px 10px 0px 10px;
+}
+.nav-style-brand{
+    font-weight: 500;
+    font-size: 24px;
+}
+.nav-style-items{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Home Styles */
+@media screen and (max-width: 576px) {
+    .main-left-col{
+        order: 1;
+    }
+    .main-right-col{
+        order: 0;
+    }
+}
+.main-heading{
+    font-weight: 700;
+    color: #21243D;
+    font-size: 32px;
+}
+.main-description{
+    font-weight: 400;
+    color: #21243D;
+    font-size: 14px;
+}
+.main-subheading{
+    font-size: 18px;
+    font-weight: 700;
+}
+.list-item{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Projects Style */
+.project-background{
+    background-color: rgba(134, 149, 164, 0.25);
+}
+.project-title-heading{
+    font-weight: 500;
+    color: #21243D;
+    font-size: 24px;
+}
+.project-heading{
+    font-weight: 700;
+    color: #21243D;
+    font-size: 22px;
+}
+.project-description{
+    font-weight: 400;
+    color: #21243D;
+    font-size: 16px;
+}
+.project-year-text{
+    font-weight: 900;
+    font-size: 14px;
+    background-color: #21243D;
+    color: white;
+    border-radius: 14px;
+    align-items: center;
+    /* margin-right: 30px; */
+}
+.project-topic-text{
+    color: #8695A4;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* Footer Styles */
+/* .footer-section{ */
+    /* background-color: #D4D4D4; */
+    /* position: fixed;
+    bottom: 0; */
+    /* width: 100%; */
+/* } */
+.footer-note{
+    font-size: 12px;
+}
